@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Analyst : Abdoul-razak</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">NIYIGENA Abdoul Razak</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a> </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">NIYIGENA Abdoul Razak</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a> </li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="my profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Abdoul Razak</h1>
+        <p class="section__text__p2">Data | Insights Analyst </p>
+        <div class="btn-container">
+          <button class="btn btn-color-2"
+           onclick="window.open('https://drive.google.com/file/d/1voUWUvJdBk_ORQMeFgAFVGqV8MuR-RpV/view?usp=sharing', '_blank')">
+         Download CV
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/abdoul-razak-niyigena/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Abdoul-razaq'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="skills icon"
+                class="icon"
+              />
+              <h3>Udemy</h3>
+              <p>Data analytics Bootcamp </br>- Master Data Science</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Degree</h3>
+              <p>B.Sc. Bachelors Degree in<br />Mechanical Engineering : Production</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+            <P>
+              A certified <b>Data & Insights Analyst</b> skilled in <b>SQL, Power BI, Tableau, Excel, and Python</b>, passionate about transforming complex data into meaningful results that drive business value. I specialize in <b>data cleaning, exploratory analysis, visualization, and building interactive dashboards</b> that turn raw datasets into <b>clear, actionable insights</b>. With experience in <b>analytics and reporting</b>, I help organizations uncover trends, solve challenges, and make smarter, data-driven decisions. I am committed to delivering insights that are <b>accurate, visual, and impactful</b>, while ensuring they remain simple and accessible for every stakeholder. 
+            </P>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Data Analytics Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p> Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Excel</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="skills icon"
+                class="icon"
+              />
+              <div>
+                <h3>Machine Learning</h3>
+                <p>Beginner</p>
+              </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Data Cleaning & Exploration</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Visualization</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Statistical Analysis</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Storytelling</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python Scripting</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Layoffs Dataset Cleaning | SQL</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Abdoul-razaq/SQL/blob/main/Data%20Cleaning%20PROJECT%20(In%20MySQL).sql'"
+              >
+                Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1TPZmnhUVtwKcBatB5aK9rCZVjlseKjc8/view?usp=sharing'"
+              >
+             Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Automate API Extraction | Python</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Abdoul-razaq/Python/blob/main/Automate%20API%20Extraction%20%2B%20Appending%20Data%20%2B%20Extra%20--%20Project.ipynb'"
+              >
+              Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1rPhxbNfuDSDVqZPW7aGTsxshXhcU5SN5/view?usp=sharing'"
+              >
+               Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Customer Analysis Dashboard-Tableau</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1UiNWYc8LXt5OeHtLojEm9-VChzyLgxA4/view?usp=sharing'"
+              >
+                Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1ZqRrU3gWSQ-Ju6b_Q5TSYJuuFA05lOqm?usp=sharing'"
+              >
+               Project Files
+              </button>
+            </div>
+          </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.JPG"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"> Amazon Web Scraper Data Analysis | Python</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Abdoul-razaq/Python/blob/main/Amazon%20Web%20Scraper%20Project.ipynb'"
+              >
+                Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href= 'https://drive.google.com/file/d/1WiljJlul-IKGKOFeWXvjgohDh-t-svTT/view?usp=sharing'"
+              >
+              Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Sales Overview Dashboard |</br>Power-BI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/17qKL3JYIvQlaCRk9Rtn4A9DNlAabwOjw/view?usp=sharing'"
+              >
+                Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1B4f7bdaR4lVO8SRnt1VdWQYCott-1VJr?usp=sharing'"
+              >
+              Project Files
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.JPG"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Data Professional Survey Breakdown | Power BI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/14HfKcEti_0wRzk75-vPaRPaUEM6l-LCk/view?usp=sharing'"
+              >
+                Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1rBHM1PsREjTTaED8QxlaB5HXDGsldhwI?usp=sharing'"
+              >
+              Project Files
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-7.PNG"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Sales by Revenue Analysis | Tableau</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1Duk-xE8AZlOvY4Hyvf1sCN2TIsQplpNa/view?usp=sharing'"
+              >
+               Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1QUTAms1SS-R70ptO_cyDtOjFGqs11dl1?usp=sharing'"
+              >
+            Project Files
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-8.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">EDA of Global Layoffs Using SQL</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Abdoul-razaq/SQL/blob/main/Explatory%20Data%20Analysis%20PROJECT%20(In%20MySQL).sql'"
+              >
+                Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/16ckV_7LULyR_zno0VoZ8sWIAihx5QTN0/view?usp=sharing'"
+              >
+                Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-9.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">McDonald’s Sales Dashboard | Excel</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1KIA5cdQf8dRn4_ATGWu0L36RQB6VWLWT/view?usp=sharing'"
+              >
+                Preview
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1VY7ObIRIeiENk-Ijv0_CqUx4FqqAUPpD?usp=sharing'"
+              >
+               Project Files
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certificates'"
+      />
+    </section>  
+  <section id="certificates">
+  <p class="section__text__p1">Discover My</p>
+  <h1 class="title">Certificates</h1>
+  <br>
+  <div class="cert-container">
+    <!-- LEFT COLUMN -->
+    <div class="cert-column">
+      <div class="cert-item">
+        <a href="./assets/NIYIGENA Abdoul Razak - Data Analysis Bootcamp Master Data Science Skills.jpg" target="_blank">Data Analysis Bootcamp : Master Data science Skills</a>
+        <p class="cert-level"> - Udemy</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="https://drive.google.com/file/d/1UzVks5Aqh_AACOpKhHnZr2m84GgIeoea/view?usp=sharing" target="_blank">Create Customer Support Data with Google Sheets</a>
+        <p class="cert-level"> -Coursera </p>
+      </div>
+
+      <div class="cert-item">
+        <a href="./assets/AICE Certificate - Abdoul Razak NIYIGENA.png" target="_blank">AI for Career Essentials</a>
+        <br>
+        <p class="cert-level"> - Alx Africa</p>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="cert-column">
+      <div class="cert-item">
+        <a href="./assets/Modern Python Programming - Mindluster_Certificate.jpg" target="_blank">Modern Python Programming</a>
+        <br>
+        <p class="cert-level"> - Mindluster</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="./assets/Data Analytics Bootcamp Certificate -  Abdoul Razak NIYIGENA.png" target="_blank">Data Analytics Bootcamp</a>
+        <br>
+        <p class="cert-level"> - Analyst Builder</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="https://drive.google.com/file/d/1ddyFhPTfdA7XmQqkzj69IJ2dxC-55gp_/view?usp=sharing" target="_blank">Landing a Data Job </a>
+        <br>
+        <p class="cert-level"> - Analyst Builder</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="./assets/C++ Programming Mindluster_Certificate.jpg" target="_blank">Programming in C++ Certification</a>
+        <br>
+        <p class="cert-level"> - Mindluster.com</p>
+      </div>
+
+    </div>
+    </div> 
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+  </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:razaquepearly01@gmail.com">razaquepearly01@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/abdoul-razak-niyigena/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Abdoul-razak.  All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
